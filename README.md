@@ -1,5 +1,7 @@
 # ◈ ATLAS — Operations Intelligence Command Center
 
+![ATLAS Command Center Cover](assets/atlas-cover.png)
+
 A full-stack, responsive, local-first operations dashboard. Built with **FastAPI, SQLite, WebSockets and vanilla JavaScript**, without a frontend build step.
 
 ## Features
