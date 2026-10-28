@@ -1,0 +1,11 @@
+services:
+  atlas:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8181:8000"
+    volumes:
+      - ./data:/srv/atlas/data
+    environment:
+      ATLAS_DB: /srv/atlas/data/atlas.db
+      ATLAS_API_KEY: ${ATLAS_API_KEY:-}
